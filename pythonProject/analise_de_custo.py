@@ -5,12 +5,12 @@ lucro=v_compra-v_venda
 if lucro == 0:
     print(p_nome)
     print("sao iguais.")
-    print(lucro)
+    print(f"{lucro:.2}")
 elif lucro > 0:
     print(p_nome)
     print("impresa lucrou.")
-    print(lucro)
+    print(f"{lucro:.2}")
 else:
     print(p_nome)
     print("teve prejuiso.")
-    print(lucro)
+    print(f"{lucro:.2}")
